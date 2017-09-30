@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6802F6EF490DEE71C0552E98 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7C945FDB2D00B8D439C777 /* libPods.a */; };
+		4BF8535A0C0BCF22D8DC9A2A /* libPods-TeamTalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B69F2ED5D7CC823EEF2351CB /* libPods-TeamTalk.a */; };
+		5202409525793A17D73F78B2 /* libPods-TeamTalkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD22E07D9F31CEB703C23C05 /* libPods-TeamTalkTests.a */; };
 		810D52181B50ECFA004DF7B4 /* bgImage_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 810D52141B50ECFA004DF7B4 /* bgImage_HL@2x.png */; };
 		810D52191B50ECFA004DF7B4 /* cellLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 810D52151B50ECFA004DF7B4 /* cellLine@2x.png */; };
 		810D521A1B50ECFA004DF7B4 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D52171B50ECFA004DF7B4 /* LCActionSheet.m */; };
@@ -413,6 +414,8 @@
 
 /* Begin PBXFileReference section */
 		03A854D4EB4F75C40944178C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		177CB776E0A0DE798E992008 /* Pods-TeamTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamTalkTests/Pods-TeamTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		2751A64663351036773C3EF8 /* Pods-TeamTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk.release.xcconfig"; sourceTree = "<group>"; };
 		810D52141B50ECFA004DF7B4 /* bgImage_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgImage_HL@2x.png"; sourceTree = "<group>"; };
 		810D52151B50ECFA004DF7B4 /* cellLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellLine@2x.png"; sourceTree = "<group>"; };
 		810D52161B50ECFA004DF7B4 /* LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheet.h; sourceTree = "<group>"; };
@@ -526,6 +529,7 @@
 		81F8502D1B58E3110004F6DE /* MTTPCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTPCLoginViewController.h; sourceTree = "<group>"; };
 		81F8502E1B58E3110004F6DE /* MTTPCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTPCLoginViewController.m; sourceTree = "<group>"; };
 		B5814BD6A45D3ECB20653BEA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B69F2ED5D7CC823EEF2351CB /* libPods-TeamTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeamTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00078401B3A466700E7E5B8 /* UIView+PointBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PointBadge.h"; sourceTree = "<group>"; };
 		C00078411B3A466700E7E5B8 /* UIView+PointBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PointBadge.m"; sourceTree = "<group>"; };
 		C00078431B3A552200E7E5B8 /* UITabBar+SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+SubView.h"; sourceTree = "<group>"; };
@@ -1071,7 +1075,10 @@
 		C0AE39FC1B32C68200B67232 /* EditGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditGroupViewController.m; sourceTree = "<group>"; };
 		C0AE39FD1B32C68200B67232 /* EditGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditGroupViewController.xib; sourceTree = "<group>"; };
 		C0AE3A1A1B32C95A00B67232 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D5232B3A196E7E68C5E5989E /* Pods-TeamTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamTalkTests/Pods-TeamTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF7EBE8DBA7F3AB6CD2F4D27 /* Pods-TeamTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		FC7C945FDB2D00B8D439C777 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD22E07D9F31CEB703C23C05 /* libPods-TeamTalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeamTalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1083,7 +1090,7 @@
 				817CB3B01B3BC6E80004AFEA /* Fabric.framework in Frameworks */,
 				C054EC851B3274E200078809 /* libsecurity.a in Frameworks */,
 				817CB3B11B3BC6E80004AFEA /* Crashlytics.framework in Frameworks */,
-				6802F6EF490DEE71C0552E98 /* libPods.a in Frameworks */,
+				4BF8535A0C0BCF22D8DC9A2A /* libPods-TeamTalk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1091,6 +1098,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5202409525793A17D73F78B2 /* libPods-TeamTalkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,6 +1110,10 @@
 			children = (
 				03A854D4EB4F75C40944178C /* Pods.debug.xcconfig */,
 				B5814BD6A45D3ECB20653BEA /* Pods.release.xcconfig */,
+				DF7EBE8DBA7F3AB6CD2F4D27 /* Pods-TeamTalk.debug.xcconfig */,
+				2751A64663351036773C3EF8 /* Pods-TeamTalk.release.xcconfig */,
+				D5232B3A196E7E68C5E5989E /* Pods-TeamTalkTests.debug.xcconfig */,
+				177CB776E0A0DE798E992008 /* Pods-TeamTalkTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1113,6 +1125,8 @@
 				817CB3AF1B3BC6E80004AFEA /* Crashlytics.framework */,
 				C0AE3A1A1B32C95A00B67232 /* libz.dylib */,
 				FC7C945FDB2D00B8D439C777 /* libPods.a */,
+				B69F2ED5D7CC823EEF2351CB /* libPods-TeamTalk.a */,
+				FD22E07D9F31CEB703C23C05 /* libPods-TeamTalkTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2506,13 +2520,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C054EC521B3270D900078809 /* Build configuration list for PBXNativeTarget "TeamTalk" */;
 			buildPhases = (
-				C737AEAC57352C980D83E347 /* Check Pods Manifest.lock */,
-				468A16201B3937150093C314 /* ShellScript */,
+				C737AEAC57352C980D83E347 /* [CP] Check Pods Manifest.lock */,
 				C054EC2B1B3270D900078809 /* Sources */,
 				C054EC2C1B3270D900078809 /* Frameworks */,
 				C054EC2D1B3270D900078809 /* Resources */,
-				D9431D98FDF906055AA1F60D /* Copy Pods Resources */,
-				817CB3AD1B3BC68D0004AFEA /* Run Script */,
+				D9431D98FDF906055AA1F60D /* [CP] Copy Pods Resources */,
+				FA8D4760A48274CEF703C941 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2527,9 +2540,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C054EC551B3270D900078809 /* Build configuration list for PBXNativeTarget "TeamTalkTests" */;
 			buildPhases = (
+				6398F4E02B171C2E389D2984 /* [CP] Check Pods Manifest.lock */,
 				C054EC441B3270D900078809 /* Sources */,
 				C054EC451B3270D900078809 /* Frameworks */,
 				C054EC461B3270D900078809 /* Resources */,
+				82C29119E50A90EF1324E6D8 /* [CP] Embed Pods Frameworks */,
+				A913B69AD803222D86EBD9D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2552,7 +2568,7 @@
 				TargetAttributes = {
 					C054EC2E1B3270D900078809 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = MEU26PKGC2;
+						ProvisioningStyle = Manual;
 					};
 					C054EC471B3270D900078809 = {
 						CreatedOnToolsVersion = 6.3;
@@ -2751,61 +2767,138 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		468A16201B3937150093C314 /* ShellScript */ = {
+		6398F4E02B171C2E389D2984 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamTalkTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ] || [ \"${CONFIGURATION}\" = \"CI\" ]; then\n\nBUILD_NUMBER=`curl http://www.mogujie.com/mobile/build/increase -F \"identifier=im.teamtalk.tt\" -F \"sign=f41b3c980d33d9d51a0a0df685b20bb9\"`\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"${INFOPLIST_FILE}\"\nfi";
-		};
-		817CB3AD1B3BC68D0004AFEA /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run c85ad901eb0173a488b631e90f5913415f7424d1 bcd847cf6b15b2605cfff9400a4da335ce5ea3a0ac481dd143db404b55a09e73";
-		};
-		C737AEAC57352C980D83E347 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D9431D98FDF906055AA1F60D /* Copy Pods Resources */ = {
+		82C29119E50A90EF1324E6D8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamTalkTests/Pods-TeamTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A913B69AD803222D86EBD9D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeamTalkTests/Pods-TeamTalkTests-resources.sh",
+				"${PODS_ROOT}/MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/1_1280x800-1.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/1_1280x800.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/4_1366x768.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/5_1280x800.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/placeholder.jpeg",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamTalkTests/Pods-TeamTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C737AEAC57352C980D83E347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9431D98FDF906055AA1F60D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk-resources.sh",
+				"${PODS_ROOT}/MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/1_1280x800-1.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/1_1280x800.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/4_1366x768.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/5_1280x800.jpeg",
+				"${PODS_ROOT}/XHImageViewer/Source/Resources/placeholder.jpeg",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8D4760A48274CEF703C941 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3172,12 +3265,14 @@
 		};
 		C054EC531B3270D900078809 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A854D4EB4F75C40944178C /* Pods.debug.xcconfig */;
+			baseConfigurationReference = DF7EBE8DBA7F3AB6CD2F4D27 /* Pods-TeamTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3195,17 +3290,20 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		C054EC541B3270D900078809 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5814BD6A45D3ECB20653BEA /* Pods.release.xcconfig */;
+			baseConfigurationReference = 2751A64663351036773C3EF8 /* Pods-TeamTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3222,11 +3320,13 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		C054EC561B3270D900078809 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5232B3A196E7E68C5E5989E /* Pods-TeamTalkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3249,6 +3349,7 @@
 		};
 		C054EC571B3270D900078809 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177CB776E0A0DE798E992008 /* Pods-TeamTalkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
