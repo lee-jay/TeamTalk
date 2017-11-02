@@ -22,3 +22,11 @@
 	file_server:
 	push_server:
 	msfs:
+
+QA:
+1. configure: error: C++ preprocessor "/lib/cpp" fails sanity check
+according to some articles on web:
+1.http://forum.ubuntu.org.cn/viewtopic.php?f=85&t=102970
+出现该情况是由于c++编译器的相关package没有安装，以超级用户登陆，在终端上执行：
+#yum install glibc-headers
+#yum install gcc-c++
