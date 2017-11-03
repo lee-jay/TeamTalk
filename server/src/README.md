@@ -26,7 +26,28 @@
 QA:
 1. configure: error: C++ preprocessor "/lib/cpp" fails sanity check
 according to some articles on web:
-1.http://forum.ubuntu.org.cn/viewtopic.php?f=85&t=102970
+http://forum.ubuntu.org.cn/viewtopic.php?f=85&t=102970
 出现该情况是由于c++编译器的相关package没有安装，以超级用户登陆，在终端上执行：
 #yum install glibc-headers
 #yum install gcc-c++
+
+2. Existing lock /var/run/yum.pid: another copy is running as pid
+解决办法:
+yum只能支持一个例程运行，所以如果有一个例程已经在运行，其他的必须等待该进程退出释放lock。出现这种情况时，可以用以下命令来恢复：
+rm -f /var/run/yum.pid
+
+3. 有make_protobuf.sh，但无法执行
+因为权限不对，没有可执行权限（绿色）
+解决办法:
+chmod 0777 make_protobuf.sh
+
+4. Error: download MariaDB-10.0.17-centos6-x86_64-devel.rpm failed
+HTTP request sent, awaiting response... 404 Not Found
+2017-11-02 06:20:46 ERROR 404: Not Found.
+Error: download MariaDB-10.0.17-centos6-x86_64-devel.rpm failed
+
+解决办法:
+修改make_mariadb.sh文件，将MariaDB的包名中的版本号和url中的版本号修改为http://sfo1.mirrors.digitalocean.com/mariadb上对应大版本中的最新feature号即可。
+比如，将10.0.17修改为10.0.33
+
+
